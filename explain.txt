@@ -1,0 +1,10 @@
+Reading data from an HTML file and  first reads an HTML file using pandas and stores the data in a DataFrame.
+download function receives an image URL and a name, then downloads the image from the URL and saves it in a folder called "imgs".
+The get_middle_info function takes a JSON dictionary and extracts information about name, description, wiki URLs, gender, date of birth, and date of death.
+function get_img_and_caption receives a name and URL, then caption from wiki page
+
+The program starts scrolling through a list of wikidata URLs. For each URL, the application tries to fetch the page using the requests library. If the page is not available, the application will go to the next URL.
+extracts information about the name, description, wiki URLs, gender, date of birth, and date of death from the Wikidata page.
+then goes to each person's Wikipedia page, downloads the image, and extracts age-related descriptions.
+Finally, the program saves all the extracted information in a text file.
+Overall extract and store information from Wikidata and Wikipedia pages. This information includes name, description, gender, date of birth and death, picture and age description. I hope this explanation was helpful. If you have any other questions, please ask.
